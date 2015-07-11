@@ -10,7 +10,7 @@ h1 {
   margin-bottom: 10px;
   float: none;
   color: #19ffab;
-  font-size: 38px;
+  font-size: 24px;
   line-height: 44px;
   font-weight: 700;
   text-align: left;
@@ -54,7 +54,7 @@ p {
   margin-bottom: 5px;
 }
 a {
-  color: #6f6fd1;
+  color: #19ffab;
 }
 a.w--current {
   color: #8ff78f;
@@ -68,11 +68,20 @@ a.w--current {
   text-decoration: none;
 }
 .nav-menu {
-  position: static;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
   float: none;
+  border-bottom-color: #19ffab;
   background-color: dimgray;
   font-family:'Changa One', Impact, sans-serif;
-  color: #f22222;
+  color: #19ffab;
+  text-transform: uppercase;
+}
+.nav-menu:hover {
+  text-transform: uppercase;
 }
 .about {
   color: #bfdbd6;
@@ -89,3 +98,6 @@ a.w--current {
 .hackaday-article {
   color: #9c9797;
 }
+@media (max-width: 991px) {
+}
+
