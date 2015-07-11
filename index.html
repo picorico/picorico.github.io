@@ -1,167 +1,125 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed May 13 2015 02:43:43 GMT+0000 (UTC) -->
-<html data-wf-site="5552ab75432fe2513a90eb61" data-wf-page="5552ab75432fe2513a90eb63">
+<!-- Last Published: Sat Jul 11 2015 04:23:54 GMT+0000 (UTC) -->
+<html data-wf-site="55a084670ddfe0783061f85f" data-wf-page="55a084670ddfe0783061f860">
 <head>
   <meta charset="utf-8">
-  <title>Open source bike telemetry platform</title>
-  <meta name="description" content="picorico is an open source bike telemetry platform. Assemble sensors from off the shelf parts and measure your bike's suspension, wheel speed etc.">
-  <meta name="keywords" content="picorico, pico rico, mountain bike, freeride, mtb, xc, downhill, dh, suspension, linear encoder, bike sensor, open source, biking sensor,dh racing, bike telemetry, rockshox, fox, ohlins">
+  <title>picorico2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="css/picorico.webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/picorico2.webflow.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
       google: {
-        families: ["Montserrat:400,700","Source Sans Pro:regular,600,600italic,700,700italic,900,900italic","Muli:regular","Raleway:regular,600,700,800,900"]
+        families: ["Changa One:400,400italic"]
       }
     });
   </script>
   <script type="text/javascript" src="js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="images/Desktop 5-9-2015 2-42-19 PM-238.png">
-  <link rel="apple-touch-icon" href="images/Desktop 5-9-2015 2-42-19 PM-238.png">
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-62926401-1'], ['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script');
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
-  <div class="share-full-page" data-ix="share-full-page">
-    <a class="w-inline-block close-social-share" href="#" data-ix="close-social-share"><img class="close social-share" src="images/close.png" width="18">
-    </a>
-    <div class="w-container content-wrapper">
-      <div class="title centered">share</div>
-    </div>
-  </div>
-  <div class="w-section full-page-menu" data-ix="full-page-menu">
-    <a class="w-inline-block close-container" href="#" data-ix="close-button"><img class="close" src="images/close.png" width="18">
-    </a>
-    <div class="w-container content-wrapper menu">
-      <div class="menu-title-container">
-        <div class="menu-title-text">menu</div>
-      </div>
-      <a class="w-inline-block menu-item-container" href="#top" data-ix="menu-items">
-        <div class="menu-text">Home</div>
+  <div class="w-nav nav-menu" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+    <div class="w-container">
+      <a class="w-nav-brand" href="#"><img src="images/5552ac36ebaf06fb327697fb_Desktop 5-9-2015 2-42-19 PM-238.png" width="58">
       </a>
-      <a class="w-inline-block menu-item-container-2" href="#features" data-ix="menu-items">
-        <div class="menu-text">Background</div>
-      </a>
-      <a class="w-inline-block menu-item-container-3" href="#video" data-ix="menu-items">
-        <div class="menu-text">Video</div>
-      </a>
-      <a class="w-inline-block menu-item-container-4" href="#screenshots" data-ix="menu-items">
-        <div class="menu-text">Pictures</div>
-      </a>
-      <a class="w-inline-block menu-item-container-5" href="#testimonials" data-ix="menu-items">
-        <div class="menu-text">News</div>
-      </a>
-      <a class="w-inline-block menu-item-container-6" href="#download" data-ix="menu-items">
-        <div class="menu-text">Links</div>
-      </a>
-    </div>
-  </div>
-  <a class="w-inline-block share-bg" href="#" data-ix="share-button"><img class="share-icon" src="images/share.png" height="20">
-  </a>
-  <div class="w-nav navbar" data-collapse="all" data-animation="default" data-duration="400">
-    <a class="w-inline-block burger-menu" href="#" data-ix="burger-menu">
-      <div class="line"></div>
-      <div class="line-2"></div>
-      <div class="line-3"></div>
-    </a>
-  </div>
-  <div class="w-section content-section hero-section" data-ix="menu-items">
-    <div class="w-container container">
-      <a class="w-nav-brand brand" href="index.html"></a>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link" href="#About">About</a><a class="w-nav-link" href="#Video">Video</a><a class="w-nav-link" href="#Press">Press</a><a class="w-nav-link" href="#Updates">Updates</a><a class="w-nav-link" href="#Contact">Contact</a>
+      </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
     </div>
-    <div class="w-container content-wrapper"></div>
-    <div class="features-container">
-      <div class="w-container content-wrapper">
-        <div class="w-row">
-          <div class="w-col w-col-4"></div>
-          <div class="w-col w-col-4"></div>
-          <div class="w-col w-col-4"></div>
-        </div>
-        <div class="general-container"><img src="images/Desktop 5-9-2015 2-42-19 PM-238.png" width="121">
-        </div>
-      </div>
-    </div>
   </div>
-  <div class="w-section content-section video" id="video">
-    <div class="w-container content-wrapper">
-      <div class="header">
-        <h2 class="h2">Open source bike telemetry platform</h2>
-        <p class="paragraph centered">Welcome to the home of the first open source bike telemetry platform.
-          <br>Learn how to build sensors, collect data and make sense of the adjustments available to you.&nbsp;</p>
-      </div>
-    </div>
-    <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
-      <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FeGf6z8v5uMc%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeGf6z8v5uMc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeGf6z8v5uMc%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
-    </div>
-  </div>
-  <div class="w-section content-section" id="features">
-    <div class="w-container content-wrapper">
-      <div class="header">
-        <h2 class="h2">Background</h2>
-      </div>
-      <div class="w-row">
-        <div class="w-col w-col-4 column">
-          <a class="w-inline-block" href="https://hackaday.io/project/5606-picorico" target="_blank"><img src="images/Screen Shot 2015-05-12 at 10.37.16 PM.png">
-          </a>
-        </div>
-        <div class="w-col w-col-4 column"></div>
-        <div class="w-col w-col-4 column"></div>
-      </div>
-      <div class="w-row">
-        <div class="w-col w-col-4 column"></div>
-        <div class="w-col w-col-4 column"></div>
-        <div class="w-col w-col-4 column"></div>
-      </div>
-    </div>
-  </div>
-  <div class="w-section content-section cta">
-    <div class="w-container content-wrapper"></div>
-  </div>
-  <div class="w-section content-section more-features" data-ix="scroll-into-view">
-    <div class="w-container content-wrapper"></div>
-  </div>
-  <div class="w-section content-section screenshots" id="screenshots">
-    <div class="w-container content-wrapper">
-      <div class="header">
-        <h2 class="h2">Pictures</h2>
-      </div><img src="images/17392726071_f73279493a_o.jpg">
-    </div>
-  </div>
-  <div class="w-section content-section testimonials" id="testimonials">
-    <div class="w-container content-wrapper">
-      <div class="header"></div>
-    </div>
-  </div>
-  <div class="w-section content-section download-app" id="download">
-    <div class="w-container content-wrapper"></div>
-  </div>
-  <div class="w-section content-section miscellaneous">
+  <div class="w-section" id="About">
     <div class="w-container">
-      <div class="w-row">
-        <div class="w-col w-col-4 column"></div>
-        <div class="w-col w-col-4 column"></div>
-        <div class="w-col w-col-4 column"></div>
+      <h1>About</h1>
+    </div>
+    <div class="w-container">
+      <div class="about">Welcome to the home of the first open source bike telemetry platform.
+        <br>Learn how to build sensors, collect data and make sense of the adjustments available to you.</div>
+    </div>
+  </div>
+  <div class="w-section"></div>
+  <div class="w-section" id="Video">
+    <div class="w-container">
+      <h1>Video</h1>
+      <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+        <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FeGf6z8v5uMc%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeGf6z8v5uMc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeGf6z8v5uMc%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
       </div>
     </div>
   </div>
-  <div class="w-section footer">
-    <div class="w-container content-wrapper">
-      <div class="footer-text">© PICORICO</div>
+  <div class="w-section"></div>
+  <div class="w-section" id="Press">
+    <div class="w-container">
+      <h1>Press</h1>
+      <div class="w-row">
+        <div class="w-col w-col-6"><img src="images/17392726071_f73279493a_o.jpg">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="press-text"><a target="_blank" href="http://techcrunch.com/2015/05/03/disrupt-ny-2015-hackathon-winners/">picorico wins&nbsp;TechCrunch Disrupt Hackathon First Runner Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-6"></div>
+        <div class="w-col w-col-6"></div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-6"><img src="images/Screen Shot 2015-07-10 at 11.46.34 PM.png" width="908">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="hackaday-article"><a target="_blank" href="http://hackaday.com/2015/05/12/picorico-hacks-string-encoder-for-bike-suspension-telemetry/">picorico wins first place Hackaday hack Disrupt contest<br></a>
+          </div>
+        </div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-6"></div>
+        <div class="w-col w-col-6"></div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-6"><img src="images/hackaday2.png" width="521">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="hackaday-article"><a target="_blank" href="http://hackaday.com/2015/05/12/picorico-hacks-string-encoder-for-bike-suspension-telemetry/">Hackaday feature article on PICORICO</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-row">
+        <div class="w-col w-col-6"><img src="images/Screen Shot 2015-07-10 at 11.59.06 PM.png">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="challengepost" id="Challenge-Post"><a target="_blank" href="http://challengepost.com/software/picorico-fylou">Challenge Post entry and winner announcement</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section"></div>
+  <div class="w-section" id="Updates">
+    <div class="w-container">
+      <h1>Updates</h1>
+      <div class="w-row">
+        <div class="w-col w-col-2"><img src="images/Screen Shot 2015-05-12 at 10.37.16 PM.png">
+        </div>
+        <div class="w-col w-col-10">
+          <div class="updates">Follow our project updates at&nbsp;<a target="_blank" href="https://hackaday.io/project/5606-picorico">https://hackaday.io/project/5606-picorico</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section"></div>
+  <div class="w-section">
+    <div class="w-container">
+      <h1>Contact</h1>
+      <a href="mailto:info@picorico.io?subject=picorico%20info"></a>
+      <div class="w-widget w-widget-twitter">
+        <iframe src="https://platform.twitter.com/widgets/follow_button.html#screen_name=picorico_io&amp;show_count=true&amp;size=l&amp;show_screen_name=true&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 100%; height: 28px;"></iframe>
+      </div>
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
