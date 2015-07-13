@@ -18,7 +18,8 @@ h1 {
 h2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 32px;
+  color: #19ffab;
+  font-size: 18px;
   line-height: 36px;
   font-weight: 700;
 }
@@ -84,8 +85,9 @@ a.w--current {
   text-transform: uppercase;
 }
 .about {
+  float: none;
   color: #bfdbd6;
-  text-align: center;
+  text-align: left;
 }
 .updates {
   margin-bottom: 0px;
@@ -97,6 +99,12 @@ a.w--current {
 }
 .hackaday-article {
   color: #9c9797;
+}
+.downhill-list {
+  color: #bfdbd6;
+}
+.lightbox {
+  background-color: black;
 }
 @media (max-width: 991px) {
 }
